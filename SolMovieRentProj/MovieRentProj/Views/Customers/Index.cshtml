@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MovieRentProj.Models.Customer>
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+@if(4 != 4)
+{
+    <text>We don't have any customers yet.</text>
+}
+else
+{
+    <table class="table table-dark table-bordered">
+        <thead>
+            <tr>
+                <th>Customer</th>
+                <th>Discount Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var customer in Model)
+                {
+                    <tr>
+                        <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id } , null)</td>
+                        <td>@customer.MembershipType.DiscountRate</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+}
+

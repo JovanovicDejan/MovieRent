@@ -106,3 +106,12 @@ C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.csproj.CopyComplete
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.dll
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.pdb
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.InitialModel.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.csproj.GenerateResource.cache
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddMembershipType.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.PopulateMembershipTypes.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddNameToMembershipType.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.Genres.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddMovie.resources
