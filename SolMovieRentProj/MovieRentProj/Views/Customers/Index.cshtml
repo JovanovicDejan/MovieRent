@@ -5,7 +5,7 @@
 }
 
 <h2>Customers</h2>
-@if(4 != 4)
+@if(!Model.Any())
 {
     <text>We don't have any customers yet.</text>
 }
@@ -19,11 +19,11 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach(var customer in Model)
+            @foreach(var customers in Model)
                 {
                     <tr>
-                        <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id } , null)</td>
-                        <td>@customer.MembershipType.DiscountRate</td>
+                        <td>@Html.ActionLink(customers.Name, "Details","Customers", new { id = customers.Id },null )</td>
+                        <td>@customers.MembershipType.Name</td>
                     </tr>
                 }
         </tbody>

@@ -15,8 +15,10 @@ namespace MovieRentProj.Models
         public Genre Genre { get; set; }
         public byte GenreId { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:dddd,MMMM,d,yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DateAdded { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:dddd,MMMM,d,yyyy}", ApplyFormatInEditMode = true)]
         public DateTime ReleaseDate { get; set; }
 
         public byte NumberInStock { get; set; }

@@ -112,6 +112,11 @@ C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddMembershipType.resources
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.PopulateMembershipTypes.resources
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.ApplyAnnotationsToCustomerName.resources
-C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddNameToMembershipType.resources
-C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.Genres.resources
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddMovie.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.UpdateMemberShip.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddGenres.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddNameToMembershipType.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.SetNameToMembershipName.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddDateOfBirthToCustomer.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.SetDateofBirthToCustomer.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddValuesToMovies.resources
