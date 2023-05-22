@@ -26,6 +26,8 @@ namespace MovieRentProj.Models
 
         public DbSet<Genre> Gener { get; set; }
 
+        public DbSet<MembershipType> MemberShipTypes { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
