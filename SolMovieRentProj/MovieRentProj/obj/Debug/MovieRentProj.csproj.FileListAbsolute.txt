@@ -128,3 +128,5 @@ C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\System
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\System.Web.Http.WebHost.xml
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\AutoMapper.dll
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\AutoMapper.xml
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.SeedUsers.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddDrivingLicenseToApplicationUser.resources
