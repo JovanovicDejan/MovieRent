@@ -1,6 +1,5 @@
 ﻿using MovieRentProj.Models;
 using MovieRentProj.ViewModels;
-using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -32,8 +31,7 @@ namespace MovieRentProj.Controllers
         }
         public ViewResult Index()
         {
-            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
-            return View(customers);
+            return View();
         }
 
         [HttpPost]

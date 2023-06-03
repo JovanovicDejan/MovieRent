@@ -13,6 +13,8 @@ namespace MovieRentProj.Dtos
 
         public byte MembershipTypeId { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
+
         //[Min18YearsIfMember]
         public DateTime? DateOfBirth { get; set; }
     }

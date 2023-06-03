@@ -3,93 +3,67 @@ using MovieRentProj.Dtos;
 using MovieRentProj.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
-using System.Net;
 using System.Web.Http;
 
 namespace MovieRentProj.Controllers.Api
 {
     public class MoviesController : ApiController
     {
-        private ApplicationDbContext _contex;
+        private ApplicationDbContext _context;
 
         public MoviesController()
         {
-            _contex = new ApplicationDbContext();
+            _context = new ApplicationDbContext();
         }
         public IEnumerable<MovieDto> GetMovies()
         {
-            return _contex.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
+            return _context.Movies
+                .Include(m => m.Genre)
+                .ToList()
+                .Select(Mapper.Map<Movie, MovieDto>);
         }
-
-        //Get method for /api/movies/id
 
         public IHttpActionResult GetMovie(int id)
         {
-            var movie = _contex.Movies.SingleOrDefault(m => m.Id == id);
-
+            var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
             if (movie == null)
-            {
                 return NotFound();
-            }
             return Ok(Mapper.Map<Movie, MovieDto>(movie));
         }
-
-        //Post method for api/movies
-
         [HttpPost]
-
         public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
             if (!ModelState.IsValid)
-            {
                 return BadRequest();
-            }
-
             var movie = Mapper.Map<MovieDto, Movie>(movieDto);
-            _contex.Movies.Add(movie);
-            _contex.SaveChanges();
-
-            return Created(new Uri(Request.RequestUri, "/" + movie.Id), movieDto);
+            _context.Movies.Add(movie);
+            _context.SaveChanges();
+            movieDto.Id = movie.Id;
+            return Created(new Uri(Request.RequestUri + "/" + movie.Id), movieDto);
         }
-
-
-        //Put method for /api/movies/1
-
         [HttpPut]
-
-        public void UpdateMovie(int id, MovieDto movieDto)
+        public IHttpActionResult UpdateMovie(int id, MovieDto movieDto)
         {
             if (!ModelState.IsValid)
-            {
-                throw new HttpResponseException(HttpStatusCode.BadRequest);
-            }
-
-            var movieInDb = _contex.Movies.SingleOrDefault(m => m.Id == id);
-
+                return BadRequest();
+            var movieInDb = _context.Movies.SingleOrDefault(c => c.Id == id);
             if (movieInDb == null)
-            {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
-            }
-
+                return NotFound();
             Mapper.Map(movieDto, movieInDb);
-
-            _contex.SaveChanges();
+            _context.SaveChanges();
+            return Ok();
         }
-
-        //DELETE method for /api/delete/movie/id
-
-        public void DeleteMovie(int id)
+        [HttpDelete]
+        public IHttpActionResult DeleteMovie(int id)
         {
-            var moveInDb = _contex.Movies.SingleOrDefault(m => m.Id == id);
-
-            if (!ModelState.IsValid)
-            {
-                throw new HttpResponseException(HttpStatusCode.NotFound);
-            }
-
-            _contex.Movies.Remove(moveInDb);
-            _contex.SaveChanges();
+            var movieInDb = _context.Movies.SingleOrDefault(c => c.Id == id);
+            if (movieInDb == null)
+                return NotFound();
+            _context.Movies.Remove(movieInDb);
+            _context.SaveChanges();
+            return Ok();
         }
     }
 }
