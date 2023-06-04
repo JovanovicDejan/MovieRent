@@ -130,3 +130,8 @@ C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\AutoMa
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\AutoMapper.xml
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.SeedUsers.resources
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.Ado.dll
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.AspNet.dll
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.Core.dll
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.EF6.dll
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.Mvc5.dll

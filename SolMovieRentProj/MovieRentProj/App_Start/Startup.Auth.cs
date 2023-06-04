@@ -54,8 +54,8 @@ namespace MovieRentProj
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-            appId: "",
-                   appSecret: "");
+            appId: "783575509890158",
+                   appSecret: "a93ff09d0d0c8df73cd1a1298542f4c8");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
