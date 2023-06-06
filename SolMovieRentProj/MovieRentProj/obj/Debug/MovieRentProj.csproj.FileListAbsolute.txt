@@ -135,3 +135,6 @@ C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimps
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.Core.dll
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.EF6.dll
 C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\bin\Glimpse.Mvc5.dll
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddRental.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.AddNumberAvailableToMovie.resources
+C:\Users\dejan\Desktop\Vidly\MovieRent\SolMovieRentProj\MovieRentProj\obj\Debug\MovieRentProj.Migrations.CreateSepareateDatabaseContextModel.resources

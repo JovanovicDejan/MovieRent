@@ -3,6 +3,7 @@
         @Html.ActionLink("Movie Rent","Index", "Home", new {area = ""}, new { @class = "navbar-brand"})
         <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
             <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("New Rental", "New", "Rentals")</li>
                 <li>@Html.ActionLink("Customers", "Index", "Customers")</li>
                 <li>@Html.ActionLink("Movie", "Index", "Movies")</li>
             </ul>

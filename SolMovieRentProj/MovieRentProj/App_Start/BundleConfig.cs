@@ -13,7 +13,9 @@ namespace MovieRentProj
                         "~/scripts/bootbox.js",
                         "~/Scripts/respond.js",
                         "~/Scripts/datatables/jquery.datatables.js",
-                        "~/Scripts/datatables/datatables.bootstrap.js"
+                        "~/Scripts/datatables/datatables.bootstrap.js",
+                        "~/Scripts/typeahead.bundle.js",
+                        "~/Scripts/toastr.js"
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
@@ -27,7 +29,10 @@ namespace MovieRentProj
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap-lumen.css",
                       "~/Content/DataTables/css/dataTables.bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/typeahead.css",
+                      "~/Content/toastr.css",
+                      "~/Content/site.css"
+                      ));
         }
     }
 }
